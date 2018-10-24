@@ -1,0 +1,23 @@
+{
+	"locations": [{
+		"Image": "images/default.jpeg",
+		"Name": "Sound Stage 42",
+		"Address": "123 Hollywood blvd.",
+		"Shoot_Time": "After Dark"
+	}, {
+		"Image": "images/default.jpeg",
+		"Name": "Redwood Forest",
+		"Address": "1 Redwood Park dr.",
+		"Shoot_Time": "Morning"
+	}, {
+		"Image": "images/default.jpeg",
+		"Name": "Mansion",
+		"Address": "456 Richguy Way",
+		"Shoot_Time": "Evening"
+	}, {
+		"Image": "images/default.jpeg",
+		"Name": "City",
+		"Address": "789 Main St.",
+		"Shoot_Time": "Afternoon"
+	}]
+}
