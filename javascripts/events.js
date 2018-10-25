@@ -10,15 +10,19 @@ const searchbar = () => {
 const buttons = () => {
     $('#morning').click(() => {
         $('.locationcard').not('.Morning').toggle();
+        $('.btn-light').not('#morning').toggle();
     })
     $('#afternoon').click(() => {
         $('.locationcard').not('.Afternoon').toggle();
+        $('.btn-light').not('#afternoon').toggle();
     })
     $('#evening').click(() => {
         $('.locationcard').not('.Evening').toggle();
+        $('.btn-light').not('#evening').toggle();
     })
     $('#dark').click(() => {
         $('.locationcard').not('.After').toggle();
+        $('.btn-light').not('#dark').toggle();
     })
 }
 
