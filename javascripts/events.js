@@ -7,4 +7,8 @@ const searchbar = () => {
     })
 }
 
-export {searchbar}
+const buttons = () => {
+    
+}
+
+export {searchbar, buttons}
