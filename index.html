@@ -9,13 +9,17 @@
     <title>Movie Shots</title>
 </head>
 <body>
-    <div id='filmInfo'></div>
+    <div id='filmInfo' class='d-flex flex-wrap justify-content-center'></div>
     <div class="input-group mb-3">
         <input type="text" id="searchbar" class="form-control" placeholder="Search Locations" aria-label="Search Locations" aria-describedby="basic-addon1">
     </div>
-    <div class="d-felx mx-auto">
-        <div class="flex-row" id='locationCards'></div>
+    <div id='sortbtns' class='d-flex flex-wrap justify-content-center'>
+        <button id='morning' type="button" class="btn btn-light m-1">Morning</button>
+        <button id='afternoon' type="button" class="btn btn-light m-1">Afternoon</button>
+        <button id='evening' type="button" class="btn btn-light m-1">Evening</button>
+        <button id='dark' type="button" class="btn btn-light m-1">After Dark</button>
     </div>
+    <div class="card-deck" id='locationCards'></div>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

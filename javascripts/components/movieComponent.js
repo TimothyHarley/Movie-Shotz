@@ -13,4 +13,4 @@ const writeMovies = (arrayOfMovies) => {
     $('#filmInfo').html(domString);
 }
 
-export {writeMovies}
+export { writeMovies }
