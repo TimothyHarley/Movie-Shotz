@@ -1,23 +1,63 @@
 {
 	"locations": [{
+		"Id": "location1",
 		"Image": "images/default.jpeg",
 		"Name": "Sound Stage 42",
 		"Address": "123 Hollywood blvd.",
 		"Shoot_Time": "After Dark"
 	}, {
+		"Id": "location2",
 		"Image": "images/default.jpeg",
 		"Name": "Redwood Forest",
 		"Address": "1 Redwood Park dr.",
 		"Shoot_Time": "Morning"
 	}, {
+		"Id": "location3",
 		"Image": "images/default.jpeg",
 		"Name": "Mansion",
 		"Address": "456 Richguy Way",
 		"Shoot_Time": "Evening"
 	}, {
+		"Id": "location4",
 		"Image": "images/default.jpeg",
 		"Name": "City",
 		"Address": "789 Main St.",
 		"Shoot_Time": "Afternoon"
+	}, {
+		"Id": "location5",
+		"Image": "images/default.jpeg",
+		"Name": "Ocean",
+		"Address": "2983 Beachfront ln.",
+		"Shoot_Time": "Morning"
+	}, {
+		"Id": "location6",
+		"Image": "images/default.jpeg",
+		"Name": "Bakery",
+		"Address": "3900 Hillsboro pk.",
+		"Shoot_Time": "After Dark"
+	}, {
+		"Id": "location7",
+		"Image": "images/default.jpeg",
+		"Name": "The Bank",
+		"Address": "1 Wall St",
+		"Shoot_Time": "Afternoon"
+	}, {
+		"Id": "location8",
+		"Image": "images/default.jpeg",
+		"Name": "Lake",
+		"Address": "55 Dam Blvd",
+		"Shoot_Time": "Morning"
+	}, {
+		"Id": "location9",
+		"Image": "images/default.jpeg",
+		"Name": "Prison",
+		"Address": "2056 Heist Way",
+		"Shoot_Time": "Evening"
+	}, {
+		"Id": "location10",
+		"Image": "images/default.jpeg",
+		"Name": "The Mall",
+		"Address": "1985 Zombie St.",
+		"Shoot_Time": "After Dark"
 	}]
 }

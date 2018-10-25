@@ -2,7 +2,7 @@ const writeLocations = (arrayOfLocations) => {
     let domString = '';
     arrayOfLocations.forEach((location) => {
         domString += `
-        <div class="card locationCard ${location.Shoot_Time}" style="max-width: 18rem;">
+        <div class="mt-4 card locationCard ${location.Shoot_Time}" style="max-width: 18rem; min-width: 18rem;">
             <img class="card-img-top" src="${location.Image}" alt="Card image cap">
             <div class="card-body searchables">
                 <h5 class="card-title">${location.Name}</h5>
