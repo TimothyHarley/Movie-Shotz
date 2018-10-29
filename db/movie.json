@@ -3,6 +3,37 @@
 		"Name": "Jaws 19",
 		"Genre": "Action/Adventure",
 		"estimatedReleaseDate": "October 21, 2015",
-		"Description": "This time, it's really really personal"
+		"Description": "This time, it's really really personal",
+		"locations": ["location1", "location5", "location9"]
+	}, {
+		"Name": "The Hobbit: part 4",
+		"Genre": "Action/Fantasy",
+		"estimatedReleaseDate": "December 25, 2020",
+		"Description": "The gripping story of how Biblbo sat at home for 60 years",
+		"locations": ["location1", "location2", "location8"]
+	}, {
+		"Name": "The Name of the Wind",
+		"Genre": "Fantasy",
+		"estimatedReleaseDate": "March 14, 2019",
+		"Description": "Kvothe's Parents are killed by a myth, so he goes to Magic School.",
+		"locations": ["location1", "location4", "location10"]
+	}, {
+		"Name": "The Wise Man's Fear",
+		"Genre": "Fantasy",
+		"estimatedReleaseDate": "May 17, 2021",
+		"Description": "Kvothe gets kicked out of Magic School, so he goes to Ninja School.",
+		"locations": ["location1", "location3", "location7"]
+	}, {
+		"Name": "The Doors of Stone",
+		"Genre": "Fantasy",
+		"estimatedReleaseDate": "January 21, 2089",
+		"Description": "Kvothe goes back to Magic School, then he fucks up everything for everyone, everywhere.",
+		"locations": ["location1", "location4", "location6", "location7"]
+	}, {
+		"Name": "Star Wars",
+		"Genre": "Scifi/fantasy",
+		"estimatedReleaseDate": "A long time ago",
+		"Description": "In a galaxy far, far away...",
+		"locations": ["location1", "location2", "location4", "location7", "location8", "location10"]
 	}]
 }
