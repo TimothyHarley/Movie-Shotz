@@ -1,11 +1,11 @@
-import {getMovies} from './data/movieData.js'
+import {initMovies} from './components/movieComponent.js'
 import {initLocations} from './components/locationComponent.js'
 import {searchbar, buttons} from './events.js'
 
 console.log('js connected')
 
 const appInit = () => {
-    getMovies();
+    initMovies();
     initLocations();
     searchbar();
     buttons();

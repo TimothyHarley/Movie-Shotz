@@ -8,10 +8,7 @@ const getLocations = () => {
             .fail((error) => {
                 reject('error');
             });
-
     })
-
-
 }
 
 export { getLocations }
