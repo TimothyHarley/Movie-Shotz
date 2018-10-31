@@ -1,3 +1,5 @@
+import { getMovies } from '../data/movieData.js';
+
 const writeMovies = (arrayOfMovies) => {
     let domString = '';
     arrayOfMovies.forEach((movie) => {
@@ -10,7 +12,7 @@ const writeMovies = (arrayOfMovies) => {
         <ul class="list-group list-group-flush">
           <li class="list-group-item">${movie.Genre}</li>
           <li class="list-group-item">${movie.estimatedReleaseDate}</li>
-          <li class="list-group-item">${movie.locations}</li>
+          <li class="list-group-item">${movie.locations.length} filming locations</li>
         </ul>
       </div>
     `
@@ -18,10 +20,12 @@ const writeMovies = (arrayOfMovies) => {
     $('#filmInfo').html(domString);
 }
 
+const initMovies = () => {
+  getMovies().then((arrayOfMovies) => {
+      writeMovies(arrayOfMovies);
+  }).catch((error) => {
+      console.error(error);
+  })
+}
 
-//make a variable for a string builder to 
-//  put in the place of '${movie.locations}'
-//  *trying to get the locations to load in a column
-
-
-export { writeMovies }
+export { initMovies }

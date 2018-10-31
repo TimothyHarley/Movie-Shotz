@@ -1,14 +1,14 @@
-import {writeLocations} from '../components/locationComponent.js'
-
 const getLocations = () => {
-    $.get('../../db/locations.json')
-        .done((data)=> {
-            console.log(data);
-            writeLocations(data.locations);
-        })
-        .fail((error)=> {
-            console.error('error');
-        });
-    }
+    return new Promise((resolve, reject) => {
+        $.get('../../db/locations.json')
+            .done((data) => {
+                console.log(data);
+                resolve(data.locations)
+            })
+            .fail((error) => {
+                reject('error');
+            });
+    })
+}
 
-export {getLocations}
+export { getLocations }

@@ -1,3 +1,5 @@
+import { getLocations } from '../data/locationsData.js';
+
 const writeLocations = (arrayOfLocations) => {
     let domString = '';
     arrayOfLocations.forEach((location) => {
@@ -17,4 +19,12 @@ const writeLocations = (arrayOfLocations) => {
     $('#locationCards').html(domString);
 }
 
-export {writeLocations}
+const initLocations = () => {
+    getLocations().then((arrayOfLocations) => {
+        writeLocations(arrayOfLocations);
+    }).catch((error) => {
+        console.error(error);
+    })
+}
+
+export { initLocations }
